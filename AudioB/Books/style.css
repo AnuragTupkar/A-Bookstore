@@ -1,0 +1,62 @@
+body {
+    background-color: #EAE9E4;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+
+#cover {
+    width: 425px;
+    position: relative;
+    left: 5rem;
+    top: 4rem;
+}
+
+#logo {
+    width: 140px;
+}
+
+.navi {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    margin-top: 1.8rem;
+    position: relative;
+    left: 14rem;
+    font-size: large;
+    margin-left: 2rem;
+}
+
+#info {
+    margin-top: 6rem;
+}
+
+#fast {
+    width: 550px;
+    margin-top: 1.2rem;
+}
+
+#quantity {
+    height: 2.4rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#mrp {
+    display: inline-block;
+}
+
+#buy {
+    position: relative;
+    bottom: 0.25rem;
+    display: inline-block;
+}
+
+.review {
+    margin-top: 7rem;
+}
+
+#thoughts {
+    width: 85rem;
+    height: 20rem;
+    text-align: left;
+}

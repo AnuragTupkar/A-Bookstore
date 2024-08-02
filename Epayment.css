@@ -1,0 +1,18 @@
+#Delivery{
+    height: 40rem; position: relative; left:6rem; top:5.3rem;
+}
+.forms{
+    position: relative; top:8rem;  left:10rem; font-size: x-large;
+}
+input{
+    margin: 0.5rem;
+}
+body{
+    color: #243048;
+}
+button{
+    width: 18rem; margin-top: 2rem;
+}
+.DeliveryF{
+    background-color:#ffb831; padding-bottom: 23.5rem;
+}

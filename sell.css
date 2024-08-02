@@ -1,0 +1,60 @@
+
+      /* Add styles for the h2 headings */
+      h2 {
+        color: blue;
+        font-size: 30px;
+        margin-top: 40px;
+      }
+
+      /* Add styles for the labels */
+      label {
+        display: block;
+        margin-top: 20px;
+      }
+
+      /* Add styles for the input fields */
+      input[type="text"],
+      input[type="email"],
+      input[type="tel"],
+      textarea {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        height: 3rem;
+      }
+
+      /* Add styles for the file input */
+      input[type="file"] {
+        margin-top: 10px;
+      }
+
+      /* Add styles for the submit buttons */
+      button[type="submit"] {
+        background-color: blue;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        
+        width: 20rem;
+      }
+      
+      #Delivery {
+        height: 40rem;
+        position: relative;
+        left: 6rem;
+        top: 5.3rem;
+    }
+    body{
+      background-color:#ffb831;
+
+    }
+    .content{
+      text-align: center;
+    }

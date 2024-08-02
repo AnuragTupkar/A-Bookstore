@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="sell.css">
+</head>
+
+<body>
+<div class="container-fluid row">
+  <div class="container-fluid col-lg-6">
+    <img id="Delivery" src="Image/book.png">
+  </div>
+  <div class="container-fluid col-lg-6 content">
+    <h2>Step 1: Upload Book Photo</h2>
+    <form>
+      <label for="book-photo">Book Photo:</label>
+      <input type="file" name="book-photo" id="book-photo" required>
+      <br>
+      
+    </form>
+    <h2>Step 2: Provide Information</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required>
+      <br>
+      <label for="phone">Phone:</label>
+      <input type="tel" name="phone" id="phone" required>
+      <br>
+      <label for="pickup-location">Pickup Location:</label>
+      <textarea name="pickup-location" id="pickup-location" required></textarea>
+      <br>
+    </form>
+    <button id="submit" type="submit">Submit</button>
+  </div>
+  </div>
+  
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="sell.js" charset="utf-8"></script>
+
+</html>

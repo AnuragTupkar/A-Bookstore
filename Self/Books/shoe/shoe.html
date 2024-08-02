@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+
+        <a class="navbar-brand " href="../../../Home.html"><img id="logo" src="../../../Image/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link navi" href="../../../Home.html">Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navi" href="../../../Self/self.html">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navi" href="../../../AudioB/AudioB.html">AudioBooks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navi" href="../../../Ebook/Ebook.html">Ebooks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navi" href="#">SellBooks</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container-fluid row">
+        <div class="col-lg-6">
+            <img id="cover" src="../../../Image/ShoeC.png" alt="">
+        </div>
+        <div id="info" class="col-lg-6">
+            <h1>Shoe Dog (Paperback)</h1>
+            <img  src="../../../Image/Ratings.png"><br>
+            <button class="btn btn-danger">Paperback</button>
+            <button class="btn btn-light">Audiobook</button>   
+            <button class="btn btn-light">Ebook</button>    
+            <p> Shoe Dog is a memoir by Nike co-founder Phil Knight. </p>
+            <p> The memoir chronicles the history of Nike from its founding as Blue Ribbon Sports.</p>  
+            <p id="mrp">200Rs</p>
+            <input id="quantity" type="text" placeholder="1">
+            <form action="../../../payment.html">
+              <button id="buy" href="" class="btn btn-danger">Buy now</button>
+            </form><br>
+            <img id="fast" src="../../../Image/Fast.png">
+        </div>
+    </div>
+    <div class="container-fluid review">
+      <h1>Write an Review</h1>
+      <form>
+        <input id="thoughts" type="text" placeholder="Write your thoughts here">
+      </form>
+    </div>
+</body>
+</html>
